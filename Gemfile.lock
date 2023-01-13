@@ -99,6 +99,7 @@ GEM
     crack (0.4.5)
       rexml
     crass (1.0.6)
+    date (3.3.3)
     debug_inspector (1.1.0)
     dotenv (2.7.6)
     dotenv-rails (2.7.6)
@@ -167,8 +168,11 @@ GEM
     loofah (2.12.0)
       crass (~> 1.0.2)
       nokogiri (>= 1.5.9)
-    mail (2.7.1)
+    mail (2.8.0.1)
       mini_mime (>= 0.1.1)
+      net-imap
+      net-pop
+      net-smtp
     marcel (1.0.2)
     method_source (1.0.0)
     mini_mime (1.1.2)
@@ -179,6 +183,15 @@ GEM
     multi_json (1.15.0)
     multi_xml (0.6.0)
     multipart-post (2.1.1)
+    net-imap (0.3.4)
+      date
+      net-protocol
+    net-pop (0.1.2)
+      net-protocol
+    net-protocol (0.2.1)
+      timeout
+    net-smtp (0.3.3)
+      net-protocol
     nio4r (2.5.8)
     nokogiri (1.12.5)
       mini_portile2 (~> 2.6.1)
@@ -321,6 +334,7 @@ GEM
       e2mmap
     tilt (2.0.10)
     timecop (0.9.4)
+    timeout (0.3.1)
     turbolinks (5.2.1)
       turbolinks-source (~> 5.2)
     turbolinks-source (5.2.0)
