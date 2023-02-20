@@ -95,7 +95,7 @@ GEM
     coderay (1.1.3)
     commonmarker (0.23.2)
     concurrent-ruby (1.1.9)
-    connection_pool (2.2.5)
+    connection_pool (2.3.0)
     crack (0.4.5)
       rexml
     crass (1.0.6)
@@ -226,7 +226,7 @@ GEM
       puma (>= 2.7)
     raabro (1.4.0)
     racc (1.6.0)
-    rack (2.2.3)
+    rack (2.2.6.2)
     rack-canonical-host (1.0.0)
       addressable (> 0, < 3)
       rack (>= 1.0.0, < 3)
@@ -266,7 +266,7 @@ GEM
     rb-fsevent (0.11.0)
     rb-inotify (0.10.1)
       ffi (~> 1.0)
-    redis (4.5.1)
+    redis (4.8.1)
     request_store (1.5.0)
       rack (>= 1.4)
     rexml (3.2.5)
@@ -296,9 +296,9 @@ GEM
       sidekiq (>= 3)
       thwait
       tilt (>= 1.4.0)
-    sidekiq-status (2.1.0)
+    sidekiq-status (3.0.1)
       chronic_duration
-      sidekiq (>= 5.0)
+      sidekiq (>= 6.0, < 8)
     sidekiq-unique-jobs (7.1.8)
       brpoplpush-redis_script (> 0.1.1, <= 2.0.0)
       concurrent-ruby (~> 1.0, >= 1.0.5)
