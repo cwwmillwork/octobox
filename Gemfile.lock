@@ -319,7 +319,7 @@ GEM
     thor (1.1.0)
     thwait (0.2.0)
       e2mmap
-    tilt (2.0.10)
+    tilt (2.1.0)
     timecop (0.9.4)
     turbolinks (5.2.1)
       turbolinks-source (~> 5.2)
