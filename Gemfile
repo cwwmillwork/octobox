@@ -32,7 +32,7 @@ gem 'jwt'
 gem 'oj'
 gem 'yard', require: false
 gem 'commonmarker'
-gem 'pg', '1.2.3'
+gem 'pg', '1.4.6'
 gem 'rexml'
 
 group :development, :test do
